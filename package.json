@@ -1,0 +1,19 @@
+{
+  "name": "ui-test-example-multi-ad-login",
+  "version": "0.0.1",
+  "description": "A simple Playwright configuration to run tests with different Azure AD users",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [
+    "playwright",
+    "azure ad",
+    "login"
+  ],
+  "author": "Dunowen",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.27.1",
+    "dotenv": "16.0.3"
+  }
+}
